@@ -65,7 +65,7 @@ export function displayContact(){
         </div>
     </div>
                 <div class="text-center">
-                    <button id="button" class="btn btn-outline-danger disabled">Submit</button>
+                    <button id="button" class="btn btn-danger disabled">Submit</button>
                 </div>
  </div>
 </div>`
