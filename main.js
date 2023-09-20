@@ -1,8 +1,13 @@
 
-
 import { getMeals ,displayMeals, array } from "./home.js";
 getMeals()
-displayMeals(array)
+// displayMeals(array)
+$(document).ready(() => {
+    displayMeals(array).then(()=>{
+    $("#loading").fadeOut(500)
+    $("body").css("overflow", "visible")
+    })
+})
 
 
 // //!===========================================================

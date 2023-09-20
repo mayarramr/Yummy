@@ -1,7 +1,7 @@
-$(document).ready(() => {
-    $("#loading").fadeOut(500)
-    $("body").css("overflow", "visible")
-})
+// $(document).ready(() => {
+//     $("#loading").fadeOut(500)
+//     $("body").css("overflow", "visible")
+// })
 import { displayMeals, mealsRow } from "./home.js"
 let searchInputs = document.getElementById('searchInputs')
 
