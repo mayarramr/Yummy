@@ -69,8 +69,8 @@ function displayDetails(details) {
       <div class="clearfix"></div>
       <div class="mb-5">
       <h3 class="mt-2">Tags : </h3>
-            <button class="btn btn-success"><a href="${meal.strSource}" class="text-decoration-none text-white">Source</a></button>
-            <button class="btn btn-danger"><a href="${meal.strYoutube}" class="text-decoration-none text-white">Youtube</a></button>
+            <button class="btn btn-success"><a href="${meal.strSource}" class="text-decoration-none text-white" target="_blank">Source</a></button>
+            <button class="btn btn-danger"><a href="${meal.strYoutube}" class="text-decoration-none text-white" target="_blank">Youtube</a></button>
           </div> 
   </div>
 </div>`
